@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers2.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers2.js","sources":["../src/js/2-snackbar.js"],"sourcesContent":["import iziToast from \"izitoast\";\nimport \"izitoast/dist/css/iziToast.min.css\";\n\nconsole.log(\"snackbar\");"],"names":[],"mappings":"4HAGA,QAAQ,IAAI,UAAU"}
