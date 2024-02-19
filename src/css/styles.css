@@ -54,6 +54,7 @@ button {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  border: none;
 }
 
 button:hover {
@@ -93,4 +94,42 @@ button:hover {
   line-height: 150%;
   color: #2e2f42;
   text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 72px;
+  gap: 10px;
+}
+
+input[type="number"] {
+  width: 360px;
+  height: 40px;
+}
+
+fieldset {
+  display: flex;
+  width: 360px;
+  height: 78px;
+  justify-content: space-around;
+  padding: auto 0;
+}
+
+input[type="radio"] {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+button[type="submit"] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
 }
