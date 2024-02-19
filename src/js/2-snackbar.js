@@ -1,5 +1,7 @@
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import iconOk from '../img/ok.svg';
+import iconNeOk from '../img/error.svg';
 
 const ourForm = document.querySelector(".form");
 
@@ -29,7 +31,7 @@ function createPromise(event) {
                 messageSize: '16',
                 backgroundColor: 'green',
                 theme: 'dark',
-                iconUrl: '../img/ok.svg',
+                iconUrl: iconOk,
                 position: 'topRight',
             });
         })
@@ -41,7 +43,7 @@ function createPromise(event) {
                 messageSize: '16',
                 backgroundColor: 'red',
                 theme: 'dark',
-                iconUrl: '../img/error.svg',
+                iconUrl: iconNeOk,
                 position: 'topRight',
             });
         })

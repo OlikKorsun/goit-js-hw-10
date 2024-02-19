@@ -2,6 +2,7 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import iconErr from '../img/gorn.svg';
 
 const inputDate = document.querySelector("#datetime-picker");
 const startButton = document.querySelector("button[data-start]");
@@ -33,7 +34,7 @@ const optionsFlatpackr = {
                 messageSize: '16',
                 backgroundColor: 'red',
                 theme: 'dark',
-                iconUrl: '../img/gorn.svg',
+                iconUrl: iconErr,
                 position: 'topRight',
                 timeout: 3000,
                 });
